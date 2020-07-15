@@ -221,7 +221,7 @@ var UIController = (function() {
             year=now.getFullYear();
             months=['January','February','March','April','May','June','July','August','Spetember','October','November','December'];
             month=now.getMonth();
-            document.querySelector(DOMStrings.dateLabel).textContent=months[month-1]+' '+year;
+            document.querySelector(DOMStrings.dateLabel).textContent=months[month]+' '+year;
         },
         
         getDOMStrings : function() {
